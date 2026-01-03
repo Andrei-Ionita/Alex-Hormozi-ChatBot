@@ -65,7 +65,7 @@ export default function HormoziChatbot() {
     {
       id: 1,
       isBot: true,
-      text: "I'm the Hormozi AI. I've analyzed the entire 2025 Sales Course. \n\nI can write scripts, handle specific energy-trade objections, or roast your closing rate. What do you need?"
+      text: "I'm Alex Hormozi. I've got 14 years of business lessons loaded up — sales, scaling, mindset, team building, the whole playbook.\n\nWhat's the obstacle in your way right now?"
     }
   ]);
   const [input, setInput] = useState("");
@@ -180,7 +180,7 @@ export default function HormoziChatbot() {
               Hormozi<span className="text-emerald-500">AI</span>
               <span className="text-[10px] bg-emerald-900/40 text-emerald-400 px-1.5 py-0.5 rounded border border-emerald-800/50">GEMINI POWERED</span>
             </h1>
-            <p className="text-[10px] text-gray-500 font-mono tracking-wider mt-1">CONTEXT: SALES COURSE 2025 + EXT</p>
+            <p className="text-[10px] text-gray-500 font-mono tracking-wider mt-1">14 YEARS OF BUSINESS KNOWLEDGE</p>
           </div>
         </div>
 
@@ -211,7 +211,7 @@ export default function HormoziChatbot() {
             <div className="mb-12 text-center opacity-60">
               <ShieldAlert className="w-16 h-16 text-gray-600 mx-auto mb-4" />
               <p className="text-sm text-gray-500 max-w-md mx-auto">
-                I am connected to the Gemini LLM and trained on the "Ultimate Sales Training 2025". I can generate <span className="text-gray-300 font-bold">unique scripts</span> and <span className="text-gray-300 font-bold">strategies</span> on the fly.
+                I'm loaded with 14 years of business lessons — sales frameworks, scaling strategies, mindset principles, team building, and more. Ask me anything and I'll give you the <span className="text-gray-300 font-bold">straight answer</span> plus the <span className="text-gray-300 font-bold">action step</span>.
               </p>
             </div>
           )}
