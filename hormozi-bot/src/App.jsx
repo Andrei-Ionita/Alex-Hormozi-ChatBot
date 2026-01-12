@@ -229,7 +229,7 @@ export default function HormoziChatbot() {
                   <Zap className="w-4 h-4 text-emerald-500/50 fill-current" />
                 </div>
                 <div className="bg-gray-900 border border-gray-800 text-gray-400 p-4 rounded-2xl rounded-tl-none text-sm flex items-center gap-1">
-                  <span>Analyzing sales data</span>
+                  <span>Cooking up the answer</span>
                   <span className="animate-bounce">.</span>
                   <span className="animate-bounce delay-100">.</span>
                   <span className="animate-bounce delay-200">.</span>
